@@ -1,0 +1,2 @@
+        stream = await getStream(page, { audio: true, video: true, bitsPerSecond: 60 });
+        stream.pipe(file);
